@@ -1,6 +1,6 @@
 const stripeService = require('../stripe');
 const settingsCache = require('../../../shared/settings-cache');
-const MembersApi = require('@tryghost/members-api');
+const MembersApi = require('@techfi/members-api');
 const logging = require('@tryghost/logging');
 const mail = require('../mail');
 const models = require('../../models');

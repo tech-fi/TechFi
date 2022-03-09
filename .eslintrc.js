@@ -5,6 +5,11 @@ module.exports = {
         es6: true,
         node: true
     },
+    parser: 'babel-eslint',
+    parserOptions: {
+        sourceType: 'module',
+        allowImportExportEverywhere: true
+    },
     plugins: ['ghost'],
     extends: [
         'plugin:ghost/node'

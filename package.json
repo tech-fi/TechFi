@@ -1,6 +1,6 @@
 {
   "name": "ghost",
-  "version": "4.36.3",
+  "version": "4.38.0",
   "description": "The professional publishing platform",
   "author": "Ghost Foundation",
   "homepage": "https://ghost.org",
@@ -51,7 +51,7 @@
     "fix": "yarn fix:client && yarn fix:server"
   },
   "engines": {
-    "node": "^12.22.1 || ^14.17.0 || ^16.13.0",
+    "node": "^12.22.1 || ^14.18.0 || ^16.13.0",
     "cli": "^1.17.0"
   },
   "dependencies": {
@@ -109,6 +109,8 @@
     "@tryghost/version": "0.1.11",
     "@tryghost/vhost-middleware": "1.0.21",
     "@tryghost/zip": "1.1.19",
+    "@techfi/admin-api-schema": "2.11.3",
+    "@techfi/members-api": "5.1.1",
     "amperize": "0.6.1",
     "analytics-node": "6.0.0",
     "bluebird": "3.7.2",
@@ -186,10 +188,11 @@
     "@lodder/grunt-postcss": "3.1.1",
     "@playwright/test": "1.19.1",
     "@tryghost/express-test": "0.6.0",
+    "babel-eslint": "^10.1.0",
     "c8": "7.11.0",
     "coffeescript": "2.6.1",
     "cssnano": "5.0.17",
-    "eslint": "8.9.0",
+    "eslint": "^8.10.0",
     "eslint-plugin-ghost": "2.13.0",
     "grunt": "1.4.1",
     "grunt-bg-shell": "2.3.3",

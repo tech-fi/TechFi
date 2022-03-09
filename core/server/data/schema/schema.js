@@ -75,7 +75,9 @@ module.exports = {
         frontmatter: {type: 'text', maxlength: 65535, nullable: true},
         feature_image_alt: {type: 'string', maxlength: 191, nullable: true, validations: {isLength: {max: 125}}},
         feature_image_caption: {type: 'text', maxlength: 65535, nullable: true},
-        email_only: {type: 'bool', nullable: false, defaultTo: false}
+        email_only: {type: 'bool', nullable: false, defaultTo: false},
+        clap:{type: 'integer', nullable: false, unsigned: true, defaultTo: 0},
+        like:{type: 'integer', nullable: false, unsigned: true, defaultTo: 0},
     },
     users: {
         id: {type: 'string', maxlength: 24, nullable: false, primary: true},
@@ -363,6 +365,7 @@ module.exports = {
             }
         },
         name: {type: 'string', maxlength: 191, nullable: true},
+        address: {type: 'string', maxlength: 100, nullable: true},
         note: {type: 'string', maxlength: 2000, nullable: true},
         geolocation: {type: 'string', maxlength: 2000, nullable: true},
         subscribed: {type: 'bool', nullable: true, defaultTo: true},

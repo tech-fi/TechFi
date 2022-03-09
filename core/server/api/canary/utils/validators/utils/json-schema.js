@@ -1,4 +1,4 @@
-const jsonSchema = require('@tryghost/admin-api-schema');
+const jsonSchema = require('@techfi/admin-api-schema');
 
 /**
  *
